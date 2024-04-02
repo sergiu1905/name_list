@@ -1,0 +1,132 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+
+.container {
+    border: 2px solid grey;
+    border-radius: 10px;
+    width: 34rem;
+    height: auto;
+    box-shadow: 5px 5px 10px grey;
+}
+
+
+.header {
+    display: flex;
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    background-color: lightgray;
+    border-bottom: 2px solid grey;
+}
+
+.header h3 {
+    width: 70%;
+}
+
+.header .decoration {
+    display: flex;
+    align-items: center;
+}
+
+.header .circle {
+    margin: 0 5px;
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    border: 1px solid grey;
+}
+
+.red {
+    background-color: red;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.green {
+    background-color: green;
+}
+
+
+.body_container {
+    background-color: lightcyan;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+
+.filter {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    padding: 0.5rem 0;
+}
+
+.filter input {
+    width: 50%;
+}
+
+
+.list_names {
+    display: flex;
+    width: 95%;
+}
+
+.show_names {
+    height: auto;
+    min-height: 8rem;
+    width: 50%;
+    margin: 0.9rem;
+    background-color: white;
+
+    li {
+        text-align: start;
+        cursor: pointer;
+        font-weight: 600;
+        list-style-type: none;
+        padding-left: 0.5rem;
+    }
+
+}
+
+.selected {
+    color: rgb(188, 2, 2);
+}
+
+.list_names .add_name {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 0.9rem 0;
+}
+
+.list_names .add_name div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 600;
+}
+
+.list_names .add_name input {
+    width: 60%;
+}
+
+
+.buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.buttons button {
+    margin: 1rem;
+    box-shadow: 2px 2px 5px grey;
+}
+
+.buttons button:hover {
+    background-color: lightblue;
+}
